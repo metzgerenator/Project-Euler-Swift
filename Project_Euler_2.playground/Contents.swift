@@ -22,6 +22,13 @@ for number in 1...400 {
     
     total = number1 + number2
     
+    //make sure we don't exceed 4 million
+    
+    if(total > 4000000){
+        break
+    }
+    
+    
     number1 = number2
     
     number2 = total
